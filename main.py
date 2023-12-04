@@ -3,8 +3,8 @@ from PIL import Image
 import pickle as pkl
 import numpy as np
 
-IMG_SIZE = 2277
-
+IMG_SIZE = 227
+####
 class_list = {'0': 'NORMAL', '1': 'PNEUMONIA'}
 
 st.title('Pneumonia prediction based on chest X-Ray image')
